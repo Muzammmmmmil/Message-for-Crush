@@ -21,6 +21,12 @@ gif.addEventListener("click", () => {
     tex.innerHTML="I LOVE YOU ";
 });
 
+// using settimeout to display text after 5 sec
+
+setTimeout(()=>{
+    tex.innerHTML="I LOVE YOU ";
+},5000);
+
 noo.addEventListener("mouseover", ()=> {
     const nooRect = noo.getBoundingClientRect();
     const maxw = window.innerWidth - nooRect.width;
